@@ -3,6 +3,9 @@ import Header from "./components/Header"
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
+import Testimonial from "./components/Testimonial";
+import Contect from "./components/Contect";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -16,6 +19,9 @@ function App() {
           <Hero />
           <Services />
           <Portfolio />
+          <Testimonial />
+          <Contect />
+          <Footer />
       </main>
     </div>
   );
